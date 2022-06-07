@@ -1,0 +1,8 @@
+.lista-peliculas {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    justify-content: center;
+}

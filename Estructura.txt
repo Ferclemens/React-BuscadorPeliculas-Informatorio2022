@@ -1,0 +1,10 @@
+App
+    - Pagina
+        - Buscador
+            - Boton
+            - Input
+        - Resultados
+            - Lista
+                - Pelicula
+            - Paginado
+            - Loading
