@@ -15,3 +15,21 @@
     font-weight: 600;
     margin: 15px;
 }
+.pelicula--container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
+    border: 1px solid #333;
+}
+.pelicula--detalle{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

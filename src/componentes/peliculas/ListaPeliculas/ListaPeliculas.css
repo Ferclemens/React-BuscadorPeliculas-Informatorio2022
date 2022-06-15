@@ -6,3 +6,13 @@
     gap: 5px;
     justify-content: center;
 }
+.sin--resultado {
+    justify-content: center;
+}
+.error--container{
+    font-size: xx-large;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

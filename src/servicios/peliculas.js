@@ -10,3 +10,12 @@ export const getPeliculas= async (criterioBusqueda = '', pagina = 1) => {
         return {isError: true};
     }
 };
+
+export const getPelicula= async (idPelicula = 0) => {
+    try {
+        const respuesta = await fetch (`${OMDB_API_HOST}?i=${idPelicula}&apikey=${API_KEY}`);
+        return respuesta.json();
+    } catch (error) {
+        return {isError: true};
+    }
+};
